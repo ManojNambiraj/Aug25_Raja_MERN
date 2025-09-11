@@ -37,6 +37,8 @@
         // const [red, yellow, orange, violet] = fruits;
         
         // console.log(orange);
+
+    // Object Destructure:
                 
             // let student = {
             //     name: "Ravi",
