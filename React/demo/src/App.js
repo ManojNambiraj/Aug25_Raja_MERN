@@ -1,12 +1,15 @@
 import React from "react";
 import LocalState from "./LocalState";
-import "./App.css"
+// import "./App.css"
+import Routing from "./Routing";
 
 function App() {
   return (
     <div className="App">
 
-      <LocalState />
+      <Routing />
+
+      {/* <LocalState /> */}
 
       {/* <MultiButtons /> */}
     </div>
