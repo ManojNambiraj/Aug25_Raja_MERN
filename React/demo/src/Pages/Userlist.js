@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Userlist() {
 
@@ -8,6 +9,7 @@ function Userlist() {
     useEffect(() => {
         getData()
     }, [])
+
 
     const getData = async () => {
         const userdata = await axios.get(
@@ -19,6 +21,7 @@ function Userlist() {
 
   return (
     <div>
+      <Link to={"/create"} className="btn btn-primary m-4">Create user</Link>
       <table class="table table-striped">
         <thead>
           <tr>
